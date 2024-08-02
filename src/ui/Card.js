@@ -19,7 +19,7 @@ export default function ProjectCard({to,image,title,description}) {
         </CardContent>
 
         <CardActions>
-            <Link to={to}><Button size="small" color="primary">Show project</Button></Link>
+            <Link to={to} target="_blank" ><Button size="small" color="primary">Show project</Button></Link>
         </CardActions>
       </Card>
     </div>
